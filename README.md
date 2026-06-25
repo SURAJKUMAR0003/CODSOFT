@@ -1,6 +1,6 @@
-# CODSOFT Java Development Internship Tasks
+# CODSOFT Python Programming Internship Tasks
 
-This repository contains Java programs developed as part of the **CodSoft Java Development Internship**.
+This repository contains Python programs developed as part of the **CodSoft Python Programming Internship**.
 
 ---
 
@@ -8,97 +8,70 @@ This repository contains Java programs developed as part of the **CodSoft Java D
 
 ```
 CODSOFT/
-├── Task1_NumberGame/
-│   └── NumberGame.java
-├── Task2_StudentGradeCalculator/
-│   └── StudentGradeCalculator.java
-├── Task3_ATMInterface/
-│   ├── BankAccount.java
-│   ├── ATM.java
-│   └── Main.java
+├── Task1_TodoList/
+│   └── todo_list.py
+├── Task2_Calculator/
+│   └── calculator.py
+├── Task3_PasswordGenerator/
+│   └── password_generator.py
 └── README.md
 ```
 
 ---
 
-## ✅ Task 1 — Number Guessing Game
+## ✅ Task 1 — To-Do List
 
 ### Features:
-- Generates a random number between 1 and 100
-- User has **7 attempts** to guess the number
-- Feedback given: Too High / Too Low / Correct
-- **Multiple rounds** with play again option
-- **Score system** based on attempts taken
-- Win rate displayed at the end
+- Add, View, Update, Delete tasks
+- Mark tasks as complete ✔
+- Tasks saved to `tasks.json` (data persists after closing)
 
 ### How to Run:
 ```bash
-cd Task1_NumberGame
-javac NumberGame.java
-java NumberGame
+cd Task1_TodoList
+python todo_list.py
 ```
 
 ---
 
-## ✅ Task 2 — Student Grade Calculator
+## ✅ Task 2 — Calculator
 
 ### Features:
-- Enter any number of subjects with their names
-- Calculates **Total Marks** and **Average Percentage**
-- Assigns **Grade** (A+, A, B, C, D, F) based on percentage
-- Displays a formatted **Result Card**
-- Supports multiple students in one session
-
-### Grade Table:
-| Percentage | Grade | Remarks              |
-|------------|-------|----------------------|
-| 90 - 100   | A+    | Outstanding!         |
-| 80 - 89    | A     | Excellent!           |
-| 70 - 79    | B     | Very Good!           |
-| 60 - 69    | C     | Good                 |
-| 50 - 59    | D     | Needs Improvement    |
-| Below 50   | F     | Fail                 |
+- Addition, Subtraction, Multiplication, Division
+- Modulus and Power operations
+- Division by zero error handling
 
 ### How to Run:
 ```bash
-cd Task2_StudentGradeCalculator
-javac StudentGradeCalculator.java
-java StudentGradeCalculator
+cd Task2_Calculator
+python calculator.py
 ```
 
 ---
 
-## ✅ Task 3 — ATM Interface
+## ✅ Task 3 — Password Generator
 
 ### Features:
-- PIN authentication (default PIN: `1234`) with 3 attempts
-- **Check Balance**
-- **Deposit** money (max Rs. 1,00,000 per transaction)
-- **Withdraw** money (max Rs. 50,000 per transaction)
-- Input validation for insufficient funds
-- Masked account number display for security
+- Custom password length (4–64 characters)
+- Options: Uppercase, Numbers, Symbols
+- Generate multiple passwords at once (up to 10)
+- Password strength indicator (Weak / Medium / Strong / Very Strong)
 
 ### How to Run:
 ```bash
-cd Task3_ATMInterface
-javac BankAccount.java ATM.java Main.java
-java Main
+cd Task3_PasswordGenerator
+python password_generator.py
 ```
 
 ---
 
-## 🛠 Technologies Used
-- **Language:** Java (JDK 8+)
-- **IDE:** Any (VS Code / IntelliJ IDEA / Eclipse / Notepad++)
-- **Build:** Manual `javac` compilation
+## 🛠 Requirements
+- Python 3.x (no extra libraries needed)
 
 ---
 
 ## 👤 Author
-- **Internship:** CodSoft Java Development Internship
-- **LinkedIn:** [Your LinkedIn Profile]
-- **GitHub:** [Your GitHub Profile]
+- **Internship:** CodSoft Python Programming Internship
 
 ---
-
-*#codsoft #internship #java #javadevelopment*
+*#codsoft #internship #python*
